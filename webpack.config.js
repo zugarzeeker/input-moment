@@ -1,7 +1,8 @@
 module.exports = {
   entry: {
     'dist/input-moment': './index.js',
-    'example/bundle': './example/app.js'
+    'example/bundle': './example/app.js',
+    'fb-datepicker/bundle': './fb-datepicker/app.js'
   },
   output: {
     path: __dirname,

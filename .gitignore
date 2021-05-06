@@ -29,6 +29,7 @@ node_modules
 .publish
 
 example/bundle*
+fb-datepicker/bundle*
 
 dist
 lib
