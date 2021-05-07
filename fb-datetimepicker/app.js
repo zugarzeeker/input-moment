@@ -24,9 +24,9 @@ Modal.setAppElement('#app');
 const getInitialState = () => {
     const { initial, minDate, maxDate, mode } = qs.parse(window.location.search.replace('?', ''))
     return {
-        m: moment(initial),
-        minDate: moment(minDate),
-        maxDate: moment(maxDate),
+        m: moment(+initial),
+        minDate: moment(+minDate),
+        maxDate: moment(+maxDate),
         mode
     }
 }
